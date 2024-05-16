@@ -1,0 +1,22 @@
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    // Declaração das variáveis para armazenar as dimensões do retângulo
+    float comprimento, largura;
+
+    // Solicitar ao usuário que insira o comprimento e a largura do retângulo
+    cout << "Digite o comprimento do retangulo (em metros): ";
+    cin >> comprimento;
+    cout << "Digite a largura do retangulo (em metros): ";
+    cin >> largura;
+
+    // Calcular a área do retângulo
+    float area = comprimento * largura;
+
+    // Exibir o resultado
+    cout << "A area do retangulo e: " << area << " metros quadrados." << endl;
+
+    return 0;
+}
